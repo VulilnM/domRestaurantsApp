@@ -18,7 +18,49 @@
         </div>
     </header>
     <main>
-        
+
+        <div class = "buttons-row">
+            <button>Advanced search</button> 
+            <button>Search by price range</button>
+        </div>
+        <div class = "container">
+            <form id = "priceRangeForm" class = "price-range-form">
+                <div class = "card">
+                        <h3>Advanced search:</h3>
+                        <p>Search restaurants by meal prices, input the maximum and the minimum price you are willing to pay, and we will filter restaurants to fit your criterias.</p>                        
+                </div>
+            </form>
+            
+            <form id = "priceRangeForm" class = "price-range-form">
+                <div class = "card">
+                        <h3>Price range search:</h3>
+                        <p>Search restaurants by one of three price ranges, including: <br>
+                            <div class = "price-ranges">
+                                <p>1. Expensive restaurants - prices from 1100 RSD</p>
+                                <p>2. MIddle expensive restaurants - prices from 700 RSD to 1100 RSD</p>
+                                <p>3. Affordable restaurants - prices up to 700 RSD</p>
+                            </div>
+                            <div class = "radios">
+                                <h4>Restaurants categories: </h4>
+                                <br>
+                                <label for="priceRangeSelect">Select one of the price range options: </label>
+                                <label class="container-radius">Expensive restaurants
+                                  <input type="radio" checked="checked" name="radio">
+                                  <span class="checkmark"></span>
+                                </label>
+                                <label class="container-radius">MIddle expensive restaurants
+                                  <input type="radio" name="radio">
+                                  <span class="checkmark"></span>
+                                </label>
+                                <label class="container-radius">Affordable restaurants
+                                  <input type="radio" name="radio">
+                                  <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </p>
+                </div>
+            </form>
+        </div>
     </main>
     <footer>
         <div class="footer">
