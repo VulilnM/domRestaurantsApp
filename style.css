@@ -9,20 +9,30 @@ body {
   background: #f1f1f1;
 }
 
+main{
+  min-height: 75vh;
+}
+
 .rightColumnHeading{
   padding-top: 18px;
 }
 
 .header {
-  padding: 30px;
   text-align: center;
+  min-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.footer {
+.header p {
+  margin-top: 10px;
+}
+
+ .footer {
   padding: 20px;
   text-align: center;
   background: #ddd;
-  margin-top: 20px;
+  margin-top: auto;
   bottom: 0;
   width: 100%;
 }
@@ -34,6 +44,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
+  width: 100%;
 }
 
 .topnav a {
